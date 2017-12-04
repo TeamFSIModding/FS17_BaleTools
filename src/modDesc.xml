@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="38">
+    <author>fcelsa - Team FSI Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <de>Ballentools</de>
+        <en>Bale Tools</en>
+        <fr>Bale Tools</fr>
+        <it>Bale Tools</it>
+    </title>
+    <description>
+        <de>
+            <![CDATA[Dient zur Anzeige vom Balleninfos und zum öffnen der Ballen]]>
+        </de>
+		<en>
+            <![CDATA[Information about bales contents and to open the bales with tip to ground]]>
+        </en>
+		<fr>
+            <![CDATA[Utilisé pour afficher les informations sur les balles et pour ouvrir les balles]]>
+        </fr>
+        <it>
+            <![CDATA[Informazioni sul contenuto delle balle ed apertura con scarico a terra]]>
+        </it>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true" />
+    
+    <extraSourceFiles>
+		<sourceFile filename="scripts/baleInfos.lua" />
+        <sourceFile filename="scripts/baleEviscerator.lua" />
+        <sourceFile filename="scripts/hud/hudManager.lua" />
+        <sourceFile filename="scripts/triggers/PlayerTrigger.lua" />
+        <sourceFile filename="scripts/overwrites/Player.lua" />
+    </extraSourceFiles>
+	
+    <inputBindings></inputBindings>
+	
+    <l10n>
+        <text name="input_EVIBALE">
+            <en>Open and fade bale</en>
+            <de>Öffnen und verteilen von Ballen</de>
+            <fr>Ouvrir et distribuer des balles</fr>
+            <it>Apri balla</it>
+        </text>
+		
+	</l10n>
+	
+</modDesc>
